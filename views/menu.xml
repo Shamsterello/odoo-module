@@ -1,0 +1,10 @@
+<odoo>
+<!-- Корневое меню -->
+<menuitem id="my_model_menu_root" name="My module" action="action_my_model" sequence="100"/>
+<!-- Действие для отображения записей модели -->
+<record id="action_my_model" model="ir.actions.act_window">
+<field name="name">My Model Records</field>
+<field name="res_model">my.model</field>
+<field name="view_mode">list,form</field>
+</record>
+</odoo>

@@ -1,0 +1,16 @@
+<odoo>
+<record id="my_model_form_view" model="ir.ui.view">
+        <field name="name">my.model.form</field>
+        <field name="model">my.model</field>
+        <field name="arch" type="xml">
+            <form string="My Model Form">
+                <sheet>
+                    <group name="my_model_data">
+                        <field name="name" />
+                    </group>
+		<button string="Get text" class="btn-primary" name="start_function" type="object" data-hotkey="shift+g"/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
